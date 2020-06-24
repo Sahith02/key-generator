@@ -12,7 +12,7 @@ setup(
     description="A Simple python package to generate customizable keys.",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/Sahith02/key_generator",
     author="Sahith Kurapati",
     author_email="sahith02@gmail.com",
     license="MIT",
