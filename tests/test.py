@@ -1,4 +1,4 @@
-from key_generator import generate
+from key_generator.key_generator import generate
 from tqdm.auto import tqdm
 
 ##key1 = generate(5, '-', 3, 3, type_of_value = 'hex', capital = 'none', extras = ['%', '&', '^'], seed = 42).get_key()
