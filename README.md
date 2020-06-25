@@ -36,10 +36,19 @@ print(key_custom_2)  # ZLFdHXIUe-ekwJCu
 | extras        | list        | yes      | []      | List of extra symbols or characters that you want to include in each part/atom.<br>Adds these symbols to the bucket to randomly choose characters in the atom.                                                                                                                                            |
 | seed          | int         | yes      | None    | Choose a seed value for the random key generated.<br>Returns the same pseudo-random value every time for a given seed value.                                                                                                                                                                              |
 
+## Testing
+Run the following commands and check all tests pass.
+```bash
+>> git clone https://github.com/Sahith02/key-generator.git
+>> cd key-generator/tests
+>> python test.py       # will show how many tests passed and how many failed
+```
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure all the tests in the tests directory pass.
+Please make sure all the above tests pass before opening a pull request.
 
 ## License
 [MIT](https://github.com/Sahith02/key-generator/blob/master/LICENSE)

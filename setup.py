@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="key_generator",
-    version="1.0.1",
+    version="1.0.2",
     description="A Simple python package to generate customizable keys.",
     long_description=readme(),
     long_description_content_type="text/markdown",
