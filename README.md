@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/Sahith02/key-generator)](https://github.com/Sahith02/key-generator/blob/master/LICENSE)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/key-generator)
 
-A simple python package to generate customizable keys.
+A simple, yet highly customizable python package to generate professional keys.
 
 ## Installation
 
