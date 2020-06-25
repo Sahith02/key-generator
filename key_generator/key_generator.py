@@ -39,7 +39,7 @@ class generate:
             Adds these symbols to the bucket to randomly choose characters in the atom.
         seed: int, default: None
             Choose a seed value for the random key generated. Returns the same
-            pseudo random value everytime for a given seed value.
+            pseudo-random value everytime for a given seed value.
 
         Returns
         -------
@@ -64,7 +64,7 @@ class generate:
 
         More Info
         ---------
-        See GitHub Repo
+        See GitHub Repo: https://github.com/Sahith02/key-generator
         """
         self.num_of_atom = num_of_atom
         self.separator = separator
@@ -94,7 +94,7 @@ class generate:
             elif(self.capital == 'mix'):
                 starting_letter = random.choice(['a', 'A'])
             else:
-                raise ValueError("Parameter capital takes only 'none', 'all' or 'mix'. Unsupported type '" + str(capital) + "'")
+                raise ValueError("Parameter capital takes only 'none', 'all' or 'mix'. Unsupported type '" + str(self.capital) + "'")
             sub_atom_val = chr(ord(starting_letter) + sub_atom_val_code - 10)
         elif(sub_atom_val_code >= 0 and sub_atom_val_code <= 9):
             sub_atom_val = str(sub_atom_val_code)
