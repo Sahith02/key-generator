@@ -24,7 +24,7 @@ print(key.get_key())  # be1679-6ae28652eb-fa7cd6-de96-a8cc
 key_custom = generate(5, '-', 3, 3, type_of_value = 'hex', capital = 'none', extras = ['%', '&', '^'], seed = 42).get_key()
 print(key_custom)  # ^54-10e-fa&-%34-e3e
 
-key_custom_2 = key_generator.generate(2, ['-', ':'], 3, 10, type_of_value = 'char', capital = 'mix', seed = 17).get_key()
+key_custom_2 = generate(2, ['-', ':'], 3, 10, type_of_value = 'char', capital = 'mix', seed = 17).get_key()
 print(key_custom_2)  # ZLFdHXIUe-ekwJCu
 ```
 
