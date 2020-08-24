@@ -1,5 +1,6 @@
 # key-generator
 [![PyPI version](https://badge.fury.io/py/key-generator.svg)](https://badge.fury.io/py/key-generator)
+[![Downloads](https://pepy.tech/badge/key-generator)](https://pepy.tech/project/key-generator)
 [![GitHub license](https://img.shields.io/github/license/Sahith02/key-generator)](https://github.com/Sahith02/key-generator/blob/master/LICENSE)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/key-generator)
 
